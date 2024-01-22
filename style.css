@@ -1,0 +1,31 @@
+:root{
+    --warna-orange:#FB6A27;
+    --warna-abu:grey;
+}
+
+.warna-orange{
+    color: var(--warna-orange);
+}
+
+.h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: var(--warna-abu);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link.active {
+    color: var(--warna-orange);
+}
+
+.bgorange{
+    background-color: #FB6A27;
+}
+   
+   
